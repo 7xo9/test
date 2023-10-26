@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+  
+}
+
+.logo h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.content{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content li{
+    font-family: 'Quicksand', sans-serif;
+
+    font-size: 2rem;
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+}
+
+/*    Section 1 Start     */
+
+.sec{
+    height: 50vw;
+    background-color: azure;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.btn{
+    width: 30vw;
+    height: 10vh;
+    font-family: 'Quicksand', sans-serif;
+    transform: translate(0,122%);
+    background-color: rgba(0, 0, 255, 0.532);
+    color: white;
+    font-size: 2rem;
+    border: none;
+}
+
+.col2{
+  
+
+    width: 40vw;
+    height: 20vw;
+    background-color: blueviolet;
+}
+
+.con3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.blue{
+    position: absolute;
+    background-color: aquamarine;
+    width: 10vw;
+    height: 5vw;
+    transform: translate(100%,170%);
+}
+
+.black{
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    width: 10vw;
+    height: 20vw;
+    transform: translate(170%,50%);
+}
+
+.blue2{
+    position: absolute;
+    background-color: rgb(45, 38, 248);
+    width: 10vw;
+    height: 5vw;
+    transform: translate(-180%,-170%);
+}
+
+.foot{
+    background-color: black;
+    width: 100vw;
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.grd{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 400px;
+
+    
+}
+
+/*       Other Screan Start     */
+
+
+.hed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    flex-direction: column;
+    height: 100vh;
+}
+.dropdownconn{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownconn a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.DWD:hover .dropdownconn {
+    display: block;
+    
+}
+
+.DWD{
+    
+        position: relative;
+        display: inline-block; 
+}
